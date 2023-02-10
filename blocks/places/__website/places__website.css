@@ -1,0 +1,18 @@
+.places__website {
+  width: calc(456/484*100%);
+  align-self: end;
+}
+
+@media screen and (max-width: 767px) {
+  .places__website {
+    margin: 0 auto;
+    width: calc(288/320*100%);
+    min-height: 46px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .places__website {
+    width: 100%;
+  }
+}

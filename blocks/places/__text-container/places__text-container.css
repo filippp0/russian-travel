@@ -1,0 +1,10 @@
+.places__text-container {
+  width: 100%
+}
+
+@media screen and (max-width: 767px) {
+  .places__text-container {
+    width: calc(288/320*100%);
+    margin: 0 auto;
+  }
+}

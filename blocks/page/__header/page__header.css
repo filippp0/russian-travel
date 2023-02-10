@@ -1,0 +1,28 @@
+.page__header {
+  margin: 0 auto;
+  width: calc(1184/1280*100%);
+  padding-top: calc(28/1280*100%);
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  .page__header {
+    width: calc(288/320*100%);
+    padding-top: calc(16/320*100%);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .page__header {
+    width: calc(720/768*100%);
+    padding-top: calc(28/768*100%);
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .page__header {
+    width: calc(928/1024*100%);
+    padding-top: calc(28/1024*100%);
+  }
+}

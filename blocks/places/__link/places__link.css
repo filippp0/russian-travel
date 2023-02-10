@@ -1,0 +1,39 @@
+.places__link {
+  max-width: 100%;
+  text-decoration: underline;
+  font-weight: 400;
+  /*font-size: 18px;*/
+  font-size: calc(18/1280*100vw);
+  /*line-height: 22px;*/
+  line-height: calc(22/1280*100vw);
+  color: #FFFFFF;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 767px) {
+  .places__link {
+    /*font-size: 18px;*/
+    font-size: calc(18/320*100vw);
+    /*line-height: 22px;*/
+    line-height: calc(22/320*100vw);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .places__link {
+    /*font-size: 18px;*/
+    font-size: calc(18/768*100vw);
+    /*line-height: 22px;*/
+    line-height: calc(22/768*100vw);
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .places__link {
+    /*font-size: 18px;*/
+    font-size: calc(18/1024*100vw);
+    /*line-height: 22px;*/
+    line-height: calc(22/1024*100vw);
+  }
+}

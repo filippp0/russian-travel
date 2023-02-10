@@ -1,0 +1,34 @@
+.intro__list-statistic {
+  font-weight: 400;
+  /*font-size: 12px;*/
+  font-size: calc(12/1280*100vw);
+  /*line-height: 18px;*/
+  line-height: calc(18/1280*100vw);
+}
+
+@media screen and (max-width: 767px) {
+  .intro__list-statistic {
+    /*font-size: 12px;*/
+    font-size: calc(12/320*100vw);
+    /*line-height: 18px;*/
+    line-height: calc(18/320*100vw);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .intro__list-statistic {
+    /*font-size: 12px;*/
+    font-size: calc(12/768*100vw);
+    /*line-height: 18px;*/
+    line-height: calc(18/768*100vw);
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .intro__list-statistic {
+    /*font-size: 12px;*/
+    font-size: calc(12/1024*100vw);
+    /*line-height: 18px;*/
+    line-height: calc(18/1024*100vw);
+  }
+}

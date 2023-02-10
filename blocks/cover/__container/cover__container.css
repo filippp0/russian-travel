@@ -1,0 +1,11 @@
+.cover__container {
+  position: relative;
+  width: calc(1184/1280*100%);
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover__container {
+    width: 100%;
+  }
+}
