@@ -11,4 +11,5 @@
 ## Планы по доработке проекта:
 * добавить media запросы для лучшей адаптивности
 * подключить другие шрифты
-## Ссылка на GitHub Pages: 
+## Ссылка на GitHub Pages:
+* https://filippp0.github.io/russian-travel/ 
