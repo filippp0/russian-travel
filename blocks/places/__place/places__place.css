@@ -1,7 +1,7 @@
 .places__place {
   width: 100%;
   margin-bottom: calc(80/984*100%);
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
   display: grid;
   grid-template-columns: minmax(460px, auto) minmax(484px, auto);
   grid-template-rows: repeat(2, minmax(0, auto));
