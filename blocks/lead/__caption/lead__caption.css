@@ -1,7 +1,7 @@
 .lead__caption {
+  text-transform: uppercase;
   margin: 0;
   padding-top: calc(8/984*100%);
-  max-width: calc(158/984*100%);
   font-weight: 400;
   font-size: 10px;
   line-height: 14px;
@@ -13,7 +13,6 @@
   .lead__caption {
     margin-left: calc(16/320*100%);
     padding-top: calc(8/320*100%);
-    max-width: calc(158/320*100%);
     font-size: calc(10/320*100vw);
     line-height: calc(14/320*100vw);
     letter-spacing: calc(1.5/320*100vw);
@@ -24,7 +23,6 @@
   .lead__caption {
     margin-left: calc(24/768*100%);
     padding-top: calc(8/768*100%);
-    max-width: calc(158/768*100%);
     font-size: calc(10/768*100vw);
     line-height: calc(14/768*100vw);
     letter-spacing: calc(1.5/768*100vw);
@@ -34,7 +32,6 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .lead__caption {
     padding-top: calc(8/928*100%);
-    max-width: calc(158/928*100%);
     font-size: calc(10/1024*100vw);
     line-height: calc(14/1024*100vw);
     letter-spacing: calc(1.5/1024*100vw);
