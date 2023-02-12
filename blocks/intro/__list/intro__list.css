@@ -4,19 +4,18 @@
   list-style: none;
   align-self: flex-start;
   max-width: calc(690/984*100%);
-  min-height: 90px;
 }
 
 @media screen and (max-width: 767px) {
   .intro__list {
-    margin: 0 0 0 calc(16/320*100%);
+    margin-left: calc(16/320*100%);
     max-width: calc(288/320*100%);
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .intro__list {
-    margin: 0 0 0 calc(24/768*100%);
+    margin-left: calc(24/768*100%);
     max-width: calc(720/768*100%);
   }
 }

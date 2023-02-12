@@ -3,44 +3,36 @@
   align-self: flex-start;
   max-width: calc(690/984*100%);
   font-weight: 900;
-  /*font-size: 54px;*/
-  font-size: calc(54/1280*100vw);
-  /*line-height: 58px;*/
-  line-height: calc(58/1280*100vw);
+  font-size: 54px;
+  line-height: 58px;
   color: #FFFFFF;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 @media screen and (max-width: 767px) {
   .intro__title {
-    margin: 0 auto calc(40/320*100%);
+    margin-bottom: calc(40/320*100%);
+    margin-left: calc(16/320*100%);
     max-width: calc(288/320*100%);
-    /*font-size: 32px;*/
     font-size: calc(32/320*100vw);
-    /*line-height: 35px;*/
     line-height: calc(35/320*100vw);
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .intro__title {
-    margin: 0 0 calc(40/768*100%) calc(24/768*100%);
+    margin-bottom: calc(40/768*100%);
+    margin-left: calc(24/768*100%);
     max-width: calc(720/768*100%);
-    /*font-size: 54px;*/
     font-size: calc(54/768*100vw);
-    /*line-height: 58px;*/
     line-height: calc(58/768*100vw);
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .intro__title {
-    margin: 0 0 calc(40/928*100%) 0;
+    margin-bottom: calc(40/928*100%);
     max-width: calc(690/928*100%);
-    /*font-size: 54px;*/
     font-size: calc(54/1024*100vw);
-    /*line-height: 58px;*/
     line-height: calc(58/1024*100vw);
   }
 }

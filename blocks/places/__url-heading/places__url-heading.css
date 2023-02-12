@@ -4,49 +4,35 @@
   max-width: 100%;
   margin: 0 0 calc(12/456*100%) 0;
   font-weight: 400;
-  /*font-size: 12px;*/
-  font-size: calc(12/1280*100vw);
-  /*line-height: 12px;*/
-  line-height: calc(12/1280*100vw);
-  /*letter-spacing: 2px;*/
-  letter-spacing: calc(2/1280*100vw);
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
   color: #AAAAAA;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 @media screen and (max-width: 767px) {
   .places__url-heading {
-    margin: 0 0 calc(12/288*100%) 0;
-    /*font-size: 12px;*/
+    margin-bottom: calc(12/288*100%);
     font-size: calc(12/320*100vw);
-    /*line-height: 12px;*/
     line-height: calc(12/320*100vw);
-    /*letter-spacing: 2px;*/
     letter-spacing: calc(2/320*100vw);
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .places__url-heading {
-    margin: 0 0 calc(12/352*100%) 0;
-    /*font-size: 12px;*/
+    margin-bottom: calc(12/352*100%);
     font-size: calc(12/768*100vw);
-    /*line-height: 12px;*/
     line-height: calc(12/768*100vw);
-    /*letter-spacing: 2px;*/
     letter-spacing: calc(2/768*100vw);
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .places__url-heading {
-    margin: 0 0 calc(12/456*100%) 0;
-    /*font-size: 12px;*/
+    margin-bottom: calc(12/456*100%);
     font-size: calc(12/1024*100vw);
-    /*line-height: 12px;*/
     line-height: calc(12/1024*100vw);
-    /*letter-spacing: 2px;*/
     letter-spacing: calc(2/1024*100vw);
   }
 }

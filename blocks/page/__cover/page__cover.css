@@ -1,5 +1,13 @@
 .page__cover {
   padding-top: calc(92/1280*100%);
+  width: calc(1184/1280*100%);
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1279px) {
+  .page__cover {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 767px) {

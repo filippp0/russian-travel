@@ -2,7 +2,6 @@
   display: block;
   width: calc(176/1184*100%);
   color: #FFFFFF;
-  /*height: calc(52/1184*100%);*/
 }
 
 @media screen and (max-width: 767px) {
