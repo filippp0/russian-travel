@@ -8,7 +8,7 @@
   background-image: url(../../../images/cover-trains.jpg);
   background-size: cover;
   width: 100%;
-  min-height: 740px
+  min-height: 740px;
 }
 
 .cover__background::before {
