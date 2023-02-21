@@ -1,0 +1,29 @@
+.comments__image {
+  display: block;
+  color: #FFFFFF;
+  width: 97px;
+  border-radius: 50%;
+  margin-bottom: 42px;
+}
+
+@media screen and (max-width: 767px) {
+  .comments__image {
+    width: calc(96/288*100%);
+    ;
+    margin-bottom: calc(17/288*100%);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .comments__image {
+    width: calc(97/382*100%);
+    margin-bottom: calc(16/382*100%);
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .comments__image {
+    width: calc(97/296*100%);
+    margin-bottom: calc(40/296*100%);
+  }
+}

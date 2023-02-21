@@ -13,7 +13,6 @@
 
 .cover__background::before {
   content: '';
-  margin: 0;
   position: absolute;
   top: 0;
   left: 0;
@@ -24,7 +23,7 @@
 
 .cover__background:hover::before {
   background-color: rgba(42, 44, 47, .8);
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
 }
 
 @media screen and (max-width: 1279px) {

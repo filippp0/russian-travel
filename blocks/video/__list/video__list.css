@@ -1,0 +1,25 @@
+.video__list {
+  width: calc(583/1184*100%);
+  height: 323px;
+}
+
+@media screen and (max-width: 767px) {
+  .video__list {
+    width: 100%;
+    height: calc(192px + (420 - 192)*((100vw - 320px)/(700 - 320)));
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .video__list {
+    width: calc(352/720*100%);
+    height: calc(200px + (212.5 - 200)*((100vw - 768px)/(816 - 768)));
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .video__list {
+    width: calc(456/928*100%);
+    height: calc(285px + (323.125 - 285)*((100vw - 1024px)/(1161 - 1024)));
+  }
+}

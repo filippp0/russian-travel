@@ -40,6 +40,22 @@
 @import url(../blocks/places/__image/places__image.css);
 @import url(../blocks/places/__text-container/places__text-container.css);
 @import url(../blocks/places/__paragraph/places__paragraph.css);
+/*стили блока video*/
+@import url(../blocks/page/__video/page__video.css);
+@import url(../blocks/video/__title/video__title.css);
+@import url(../blocks/video/__subtitle/video__subtitle.css);
+@import url(../blocks/video/__iframes/video__iframes.css);
+@import url(../blocks/video/__list/video__list.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
+/*стили блока comments*/
+@import url(../blocks/page/__comments/page__comments.css);
+@import url(../blocks/comments/__title/comments__title.css);
+@import url(../blocks/comments/__subtitle/comments__subtitle.css);
+@import url(../blocks/comments/__container/comments__container.css);
+@import url(../blocks/comments/__comment/comments__comment.css);
+@import url(../blocks/comments/__image/comments__image.css);
+@import url(../blocks/comments/__autor/comments__autor.css);
+@import url(../blocks/comments/__quote/comments__quote.css);
 /*стили блока cover*/
 @import url(../blocks/page/__cover/page__cover.css);
 @import url(../blocks/cover/__background/cover__background.css);
